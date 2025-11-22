@@ -70,12 +70,11 @@ JMeter is executed as a separate Jenkins job to validate application performance
 
 1. Code commit triggers Jenkins pipeline  
 2. Maven builds and tests  
-3. SonarQube performs static analysis  
-4. Artifact uploaded to Nexus  
-5. Terraform creates Azure VM  
-6. Ansible deploys application to the VM  
-7. Load tests execute  
-8. VM can be destroyed automatically after validation
+3. Artifact uploaded to Nexus  
+4. Terraform creates Azure VM  
+5. Ansible deploys application to the VM  
+6. Load tests execute  
+7. VM can be destroyed automatically after validation
 
 ## Prerequisites
 
